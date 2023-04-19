@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--color-primary);
+    color: var(--very-dark-cyan);
+}
+
+.dark {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-grayish-cyan);
+}

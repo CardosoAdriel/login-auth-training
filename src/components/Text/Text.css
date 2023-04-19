@@ -1,0 +1,38 @@
+/* tipos de texto */
+.title {
+    font-size: 44px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+/* colors */
+
+.white {
+    color: var(--white)
+}
+
+.normal {
+    color: var(--color-primary)
+}
+
+.grayish {
+    color: var(--dark-grayish-cyan)
+}
+
+.dark-title {
+    color: var(--very-dark-cyan);
+}
+
+.error {
+    color: var(--error);
+}
+
+.sucess {
+    color: var(--sucess);
+}

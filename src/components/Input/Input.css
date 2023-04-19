@@ -1,0 +1,12 @@
+.input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--very-dark-cyan);
+    background-color: var(--very-light-grayish-cyan);
+}
+
+.input::placeholder {
+    color: var(--grayish-cyan);
+}

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    background-color: var(--white);
+    /*pega a referencia de valor do font-size do nosso DOM*/
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
