@@ -1,9 +1,8 @@
 .container {
     display: flex;
     background-color: var(--white);
-    /*pega a referencia de valor do font-size do nosso DOM*/
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .column {

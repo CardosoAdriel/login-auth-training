@@ -1,28 +1,20 @@
 @import url('./styles/_global.css');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Space Mono', monospace;
-  font-weight: bold;
-  font-size: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 body {
-  background-color: var(--light-grayish-cyan);
-  /* background-color: var(--white); */
+    background-color: var(--light-grayish-cyan);
+    /* background-color: var(--white); */
 }
 
 a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.main {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
 }

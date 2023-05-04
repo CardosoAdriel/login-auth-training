@@ -1,3 +1,4 @@
+import React from 'react'
 import './Container.css'
 
 export default function Container(props) {
@@ -5,23 +6,18 @@ export default function Container(props) {
         direction,
         align,
         justify,
-        wrap,
         gap,
+        wrap,
         width,
         children
-    } = props
+    } = props;
 
     return (
-        <section className={`
-                container
-                ${direction}
-                ${align}
-                ${justify}
-                ${wrap}
-            `}
-            style={{ gap: gap, width: width }}
+        <div className={`container ${direction} ${align} ${justify} ${wrap}`}
+            style={
+                { gap: `${gap || 0}px`, width: width, }}
         >
             {children}
-        </section>
+        </div>
     )
 }

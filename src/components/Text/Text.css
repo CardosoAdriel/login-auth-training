@@ -1,17 +1,14 @@
-/* tipos de texto */
 .title {
-    font-size: 44px;
+    font-size: 44px !important;
 }
 
 .paragraph {
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 .label {
-    font-size: 16px;
+    font-size: 16px !important;
 }
-
-/* colors */
 
 .white {
     color: var(--white)

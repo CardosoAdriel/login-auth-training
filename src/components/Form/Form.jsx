@@ -1,15 +1,10 @@
+import React from 'react'
+import './Form.css'
 
 export default function Form(props) {
-    const {
-        width,
-        handleSubmit,
-        children
-    } = props
+    const { width, handleSubmit, children } = props
     return (
-        <form
-            onSubmit={handleSubmit}
-            style={{ width: width }}
-        >
+        <form className={`form `} onSubmit={handleSubmit} style={{ width: width }}>
             {children}
         </form>
     )
